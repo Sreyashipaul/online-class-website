@@ -16,9 +16,9 @@ const Cart = (props) => {
       
       <div  className="cart-container">
       <div className="cart ">
-        <h1>
-   Order Summery
-  </h1>
+        < h1>
+          Order Summery
+       </h1>
   <h3>Course Ordered: {cart.length}</h3>
 
   <h3> Total Price: ${numFormat(total)}</h3>
@@ -27,8 +27,10 @@ const Cart = (props) => {
     Tax (10%): <span className="text-danger"> ${numFormat(tax)}</span>
   </h5>
   <br/>
-  <button type="button" className="button">
+  <button   type="button"  className="button">
+  
     Buy now {" "}
+    
     <span className="badge badge-light">$ {numFormat(grandTotal)}</span>
   </button>
     </div>
