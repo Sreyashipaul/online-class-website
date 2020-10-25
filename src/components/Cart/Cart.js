@@ -2,11 +2,8 @@ import React from 'react';
 import './Cart.css';
 const Cart = (props) => {
     let cart = props.cart;
-  let total = cart.reduce((total, prd) => total + prd.price, 0);
-  let coupon = total / 10;
-  let totalBeforeTax = total - coupon;
-  let tax = totalBeforeTax / 20;
-  let grandTotal = totalBeforeTax + tax;
+  let Total = cart.reduce((Total, prd) => Total + prd.price, 0);
+ 
   //Function to format number
   function numFormat(num) {
     let precision = num.toFixed(2);
@@ -21,17 +18,15 @@ const Cart = (props) => {
        </h1>
   <h3>Course Ordered: {cart.length}</h3>
 
-  <h3> Total Price: ${numFormat(total)}</h3>
+  <h3> Total Price: ${numFormat(Total)}</h3>
   
-  <h5>
-    Tax (10%): <span className="text-danger"> ${numFormat(tax)}</span>
-  </h5>
+
   <br/>
   <button   type="button"  className="button">
   
     Buy now {" "}
     
-    <span className="badge badge-light">$ {numFormat(grandTotal)}</span>
+    <span className="badge badge-light">$ {numFormat(Total)}</span>
   </button>
     </div>
    </div>
