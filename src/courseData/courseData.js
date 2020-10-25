@@ -17,7 +17,7 @@ const courseData = [
       duration: 12,
       student: 23407,
       img: "https://img-a.udemycdn.com/course/240x135/764164_de03_2.jpg?ARbS3-6GKCFJ80CFAVSuhYyN3UqFOlvb-ZhMIHy-GlM42w867pkgDVwPTi1fVR7qc8u4qgcMvXS92I6v_DHuUj8_PmOOnRUdsxLbzw6DNL9TWqWC1PkN25PcbG_Z-Dc",
-      price: 12.99,
+      price: 20.99,
     },
     {
       id: 3,
@@ -27,7 +27,7 @@ const courseData = [
       duration: 16,
       student: 235,
       img: "https://img-a.udemycdn.com/course/240x135/533682_c10c_4.jpg?YuObDKtO0HFE3IkEgmCGG5L1p4t8IQTVgmMFOy4PII0mf7g4FHTSlDZiZ-3YCcvrEp0uxd-IaDSd7Y1e-0Q_0gtnTaVTIGSNxasQF2smYtgkYGV_u2Yj2zqWKClOtRQ",
-      price: 19,
+      price: 18.60,
     },
     {
       id: 4,
@@ -47,7 +47,7 @@ const courseData = [
       duration: 5,
       student: 3560,
       img: "https://img-a.udemycdn.com/course/240x135/3519882_25ba_3.jpg?BmbkbjNBfMIRl4ljEw9jXxo8_DxJrpA3Kgf844m1Fp6vdjz8Jd4qEQL4Ld8PYpb2RpgtDnhz5yLdM_ZOpG0dCgTtlF6-Oqkcj9YhMgd9VlXI_Nf5mjZbQlorswreOaJI",
-      price: 12.99,
+      price: 14.99,
     },
     {
       id: 6,
@@ -67,7 +67,7 @@ const courseData = [
       duration: 42,
       student: 205567,
       img: "https://img-a.udemycdn.com/course/240x135/922484_52a1_8.jpg?2EsJzaC6OPtkBN8s6ngd5ltaGQfoH1lo1SZ2Pf5ep7ReHasT-V0UpkZHeWVUX4fWsNiitLSzXatna-GjSfBsSp6bQXd5BJthuU93RHzbYwuTHADbssX7e-SHfbP50HA",
-      price: 12.99,
+      price: 16.99,
     },
     {
       id: 8,
@@ -77,7 +77,7 @@ const courseData = [
       duration: 25,
       student: 111442,
       img: "https://img-a.udemycdn.com/course/240x135/1576854_9aeb.jpg?5GBNUGILPHGFAuBGTZlP834ef7-JpUj8U38DPZNMdbJXYJyi4JGIM35WqHFYH6ZoAo3LHYhuJSaM0ArRaNOOQwfvpDb9KnyB4VBLc14lp-LjaN7VApEAeKriuaNTFw",
-      price: 15,
+      price: 14.10,
     },
     {
       id: 9,
@@ -127,7 +127,7 @@ const courseData = [
       duration: 12,
       student: 315,
       img: "https://img-a.udemycdn.com/course/240x135/2973770_c1c0_7.jpg?NuqPLijuRjBrejWNFCwLDb5bCI69JNR1onOmvCAcapC_izRsSA6IPpAmbKhdb-nAHfZEnJaZUGO59PzNKdoJyJKaP6EHJd-e31Al4MeMzxM8Sfe1Al_Pjn__iEPm3rEU",
-      price: 12.99,
+      price: 23.99,
     },
     {
       id: 14,
@@ -137,7 +137,7 @@ const courseData = [
       duration: 45,
       student: "4,254 ",
       img: "https://img-a.udemycdn.com/course/240x135/2956958_5930.jpg?QEhC_C0Y0kryasQppM_vGeLUw_Oj8FaXlkqADoU24meX4cyT8H_yZG3uP7ORZZqmwRHgz1zuP04xh5FDQrsF7M-On1K44WKXLdOlj0Sbk3DMJXI8Qoj44agBdmpihQ",
-      price: 19.9,
+      price: 22.9,
     },
   
     {
@@ -148,7 +148,7 @@ const courseData = [
       duration: 32,
       student: "52,742 ",
       img: "https://img-a.udemycdn.com/course/240x135/1313502_b57f_2.jpg?u-xw9MuzxR-S_jpSeHF-uw7e6i-q7uOCBAWxcFLLNBAdomCRosTGjRBtu--axeYDP2E6J1H4Z2zT-0IXq6jxh94Y6MJcFiB3BKzDoeetLirZ980HD8bOz0KX14ASE8SU",
-      price: 13.99,
+      price: 21.99,
     },
   ];
   
